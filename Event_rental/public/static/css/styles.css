@@ -1,0 +1,38 @@
+.card {
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table>tbody {
+    vertical-align: middle;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+.table-bordered>:not(caption)>*>* {
+    border-width: 0;
+}
+
+.table-bordered>:not(caption) > * > * {
+    border-right: 0;
+    border-left: 0;
+}
+
+.table-bordered thead th {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}

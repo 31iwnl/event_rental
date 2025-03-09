@@ -2,5 +2,10 @@
     "require": {
         "google/apiclient": "^2.0",
         "erusev/parsedown": "^1.7"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
     }
 }
